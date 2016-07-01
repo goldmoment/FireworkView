@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FireworkView_Tests' do
+  pod 'FireworkView', :path => '../'
+  
+  
+end
