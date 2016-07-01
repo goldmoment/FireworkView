@@ -22,7 +22,7 @@ pod "FireworkView"
 
 ## Author
 
-Vien V.Nguyen, vien.nguyen@sutrixsolutions.com
+Vien V.Nguyen, nguyenvanvienqn@gmail.com
 
 ## License
 
