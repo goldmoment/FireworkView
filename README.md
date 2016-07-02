@@ -20,6 +20,20 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "FireworkView"
 ```
+## Usage
+
+```swift
+let firework = FireworkView()
+firework.translatesAutoresizingMaskIntoConstraints = false
+self.view.addSubview(firework)
+        
+self.view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat(
+    "H:|-0-[firework]-0-|",
+    options: [], metrics: nil, views: ["firework" : firework]))
+self.view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat(
+    "V:|-0-[firework]-0-|",
+    options: [], metrics: nil, views: ["firework" : firework]))
+```
 
 ## Author
 
