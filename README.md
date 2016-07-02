@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/FireworkView.svg?style=flat)](http://cocoapods.org/pods/FireworkView)
 
 ## Example
-![alt tag](https://drive.google.com/uc?export=download&id=0B2B3XOiJL1C6bzRWQVBfaTlKN2M)
+![alt tag](https://i.imgflip.com/16s8b3.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
