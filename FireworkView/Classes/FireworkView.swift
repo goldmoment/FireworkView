@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol FireworkViewDelegate {
+public protocol FireworkViewDelegate {
     func handleTouch(sender: UITapGestureRecognizer)
 }
 
-class FireworkView: UIView {
+public class FireworkView: UIView {
     
     private var colors = [UIColor(red:1.00, green:0.20, blue:0.29, alpha:1.0),
                           UIColor(red:0.19, green:1.00, blue:0.65, alpha:1.0),
@@ -30,7 +30,7 @@ class FireworkView: UIView {
         settup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         settup()
     }
